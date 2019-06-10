@@ -17,6 +17,7 @@ function currentLine(array) {
     return 'The line is currently empty.';
   } else {
       var lineArray = [];
+      
       for (var i = 0; i < array.length; i += 1) {
         var num = i + 1;
         var name = array[i];
