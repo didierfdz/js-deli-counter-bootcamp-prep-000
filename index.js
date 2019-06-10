@@ -23,6 +23,6 @@ function currentLine(array) {
         var name = array[i];
         lineArray.push(` `+ num + `. ` + name);
       }
-    return `The line is currently: ${lineArray}.`;
+    return 'The line is currently:' + lineArray;
   }
 }
